@@ -5,9 +5,17 @@ import level2.abstractProducts.AddressAbstract;
 public class ArgentinaAddress extends AddressAbstract {
 
     @Override
-    public String getFullAddress() {
-        return "Av. Corrientes 1234, Buenos Aires, Argentina";
+    public String getPostalCode() {
+        return "C1000";  // Código postal de Buenos Aires.
     }
 
+    @Override
+    public String getProvince() {
+        return "Buenos Aires";
+    }
 
+    @Override
+    public String getCommunity() {
+        return "CABA";
+    }
 }

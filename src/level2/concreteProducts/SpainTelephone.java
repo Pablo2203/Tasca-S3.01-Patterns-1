@@ -4,11 +4,16 @@ import level2.abstractProducts.TelephoneAbstract;
 
 public class SpainTelephone extends TelephoneAbstract {
     @Override
-    public String getFullTelephone() {
-        return "+34 600 123 456";
+    public String getCountryCode() {
+        return "+34";
     }
+
+    @Override
+    public String getAreaCode() {
+        return "600";
+
+    }
+
 }
-
-
 
 
